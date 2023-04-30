@@ -61,6 +61,6 @@ decryptBtn.addEventListener("click", () => {
 
 copyBtn.addEventListener("click", () => {
   output.select();
-  document.execCommand("copiar");
+  document.execCommand("copy");
   alert("Texto copiado");
 });
